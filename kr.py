@@ -1,12 +1,15 @@
-with open('text.xml','r', encoding = 'utf-8') as m:
-    lines = 4
-    for line in m:
-        if '</teiHeader>' in line:
-            break
-        elif '</teiHeader>' not in line:
-            lines += 1
+import os
+import re
+def chitau():
+    folder = 'news'
+    words = {}
+    for f in os.listdir(folder):
+        with open(os.path.join(folder, f), encoding='cp1251') as text:
+            text = text.read()
+            words[f] = len(re.findall('<w>.+</w>', text))
+##            print(f, words)
 
-with open('file.txt', 'w', encoding = 'utf-8') as f:
-    f = lines
-print(f)
-
+    with open('new_file', 'w', encoding = 'utf-8') as m:
+        for f in words:
+            m.write(f+'\t'+str(words[f])+'\n')
+chitau()
