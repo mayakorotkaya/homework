@@ -1,0 +1,40 @@
+<html>
+  <head>
+  <meta charset="UTF-8">
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart']});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Город');
+        data.addColumn('number', 'Длина текста');
+        data.addRows([['Санкт-Петербург', 8], ['Москва', 11], ['Новосибирск', 5], ['Кокшетау', 6], ['Киев', 10], ['Nagoya', 5], ['Луцк', 5], ['Atlanta', 5], ['Новоуральск', 7], ['Челябинск', 5], ['Киров', 9], ['Серпухов', 10], ['Краснодар', 10], ['Екатеринбург', 11], ['Одесса', 7], ['Благовещенск', 9], ['Могилёв', 8], ['Омск', 9], ['Красноярск', 2], ['Барнаул', 3], ['London', 14], ['Busan', 6], ['Гусь-Хрустальный', 6], ['Воронеж', 14], ['Miami Beach', 9], ['Jūrmala', 9], ['Нижний Новгород', 12], ['Beijing', 6], ['Barentsburg', 6], ['Тула', 6], ['Ташкент', 5], ['Смоленск', 7], ['Liverpool', 4], ['Kabul', 5], ['Пятигорск', 5], ['Димитровград', 8], ['Кумертау', 8], ['Гродно', 8], ['Ростов-на-Дону', 8], ['Щекино', 8], ['Sydney', 9], ['Kuressaare', 9], ['Дно', 7], ['Старая Купавна', 10], ['Кировск', 9], ['Кемь', 9], ['Ярославль', 8], ['Ibiza Nueva', 10], ['Kyōto', 7], ['Chicago', 13], ['Белгород', 8], ['Пермь', 7], ['Минск', 7], ['Хабаровск', 7], ['Рассказово', 7], ['Череповец', 9], ['Каннельярви', 7], ['Донецк', 7], ['Rīga', 8], ['Винница', 8], ['Мурманск', 9], ['Павловское', 8], ['Гомель', 8], ['Самара', 3], ['Тольятти', 3], ['Караганда', 11], ['Калининград', 11], ['Tokyo', 12], ['Praha', 12], ['Бердичев', 7], ['Saas-Fee', 13], ['Великий Новгород', 11], ['Псков', 11], ['Искитим', 11], ['Астрахань', 5], ['Cupertino', 10], ['Иваново', 8], ['Чебоксары', 3], ['Высоковск', 6], ['Бишкек', 6], ['Кемерово', 10], ['Липецк', 5], ['Улан-Удэ', 10], ['Budapest', 8], ['Магадан', 8], ['Canberra', 10], ['Томск', 7], ['Братск', 6], ['Электрогорск', 6], ['Kohtla-Järve (Кохтла-Ярве)', 8], ['Рязань', 5], ['Helsinki', 5], ['Владивосток', 5], ['Петрозаводск', 7], ['Березовский', 3], ['Amsterdam', 4], ['Канск', 3], ['Gdańsk', 3], ['Казань', 13], ['Красноперекопск', 13], ['Новый Ургал', 12], ['Kraków', 12], ['Köln', 12], ['Аткарск', 12], ['Kingston', 12], ['Кудрово', 8], ['Южно-Сахалинск', 7], ['Ханты-Мансийск', 7], ['Ульяновск', 7], ['Tychy', 8], ['Paris', 7], ['Коковка', 7], ['Саратов', 7], ['Пенза', 7], ['Уфа', 15], ['Новокузнецк', 13], ['Portland', 12], ['Архангельск', 11], ['Осташков', 12], ['Гиагинская', 11], ['Няша', 11], ['Орск', 11]]);
+        // Set chart options
+        var options = {'title':'Город и многословность',
+                       'width':800,
+                       'height':1000};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="chart_div"></div>
+  </body>
+</html>
