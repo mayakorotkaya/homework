@@ -6,10 +6,11 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 offsets = [0, 100]
 for off in offsets:
-    stroka1 = 'https://api.vk.com/method/wall.get?owner_id=-29534144&count=100&v=5.73&access_token=0cbef3760cbef3760cbef376fd0cdcdf2500cbe0cbef376567f2659ce7174a8c2199f9b&offset='+ str(off)
+    stroka1 = 'https://api.vk.com/method/wall.get?owner_id=-29534144&count=100&v=5.73&access_token=4e4390334e4390334e439033504e21bc6044e434e4390331552d00d82502b3b1e852732&offset='+ str(off)
     req = urllib.request.Request(stroka1)
     response = urllib.request.urlopen(req)
     result = response.read().decode('utf-8')
+    #print(result)
     if off == 0:
         data = json.loads(result)
     else:
@@ -35,7 +36,7 @@ for m in range(199):
     f.write(data["response"]["items"][m]["text"])
     post = data["response"]["items"][m]["id"]
     for off in offsets:
-        stroka = 'https://api.vk.com/method/wall.getComments?owner_id=-29534144&post_id='+str(post)+'&count=100&v=5.73&extended=1&fields=bdate,city&offset='+str(off)
+        stroka = 'https://api.vk.com/method/wall.getComments?owner_id=-29534144&access_token=4e4390334e4390334e439033504e21bc6044e434e4390331552d00d82502b3b1e852732&post_id='+str(post)+'&count=100&v=5.73&extended=1&fields=bdate,city&offset='+str(off)
         requ = urllib.request.Request(stroka)
         response1 = urllib.request.urlopen(requ)
         result1 = response1.read().decode('utf-8')
@@ -43,6 +44,7 @@ for m in range(199):
             data2 = json.loads(result1)
         else:
             data3 = json.loads(result1)
+            #print(data3)
             needed_data1 = data3['response']['items']
             needed_data2 = data3['response']['profiles']
             for z in needed_data1:
@@ -131,23 +133,26 @@ plt.plot(x,y)
 plt.title('Как соотносится длина поста с средней длиной комментариев?')
 plt.xlabel('Длина поста')
 plt.ylabel('Средняя длина комментариев')
+plt.savefig('post_with_comments.png', dpi=100, format='png')
 plt.show()
-plt.savefig('post_with_comments.png', dpi=300, format='png')
+#plt.savefig('post_with_comments.png', dpi=300, format='png')
 
 plt.plot(sorted(slovar_age_comment.keys()), slovar_age_comment.values())
 plt.title('Возраст и многословность')
 plt.xlabel('Возраст')
 plt.ylabel('Средняя длина коммента')
+plt.savefig('age_with_comments.png', dpi=100, format='png')
 plt.show()
-plt.savefig('age_with_comments.png', dpi=300, format='png')
+#plt.savefig('age_with_comments.png', dpi=300, format='png')
 
 plt.bar(slovar_city_comment.keys(), slovar_city_comment.values())
 plt.title('Города и многословность')
 plt.xlabel('Города')
 plt.ylabel('Средняя длина комментариев')
 plt.xticks(range(len(slovar_city_comment.keys())), slovar_city_comment.keys(), rotation=90)
+plt.savefig('city_with_comments.png', dpi=100, format='png')
 plt.show()
-plt.savefig('city_with_comments.png', dpi=300, format='png')
+#plt.savefig('city_with_comments.png', dpi=300, format='png')
 #есть файл json data со всеми постами и информацией о них. Есть файл json data2 со всеми комментами и информацией о них, а так же о пользователях, оставивших коммент. Есть словарь slovar, где ключ - длина поста в словах, а значение - средняя длина комментов к этому посту. Есть график про длину поста и длину комментов. Есть выкачивание возраста и города для комментаторов.
 #Нужно выкачать текст комметария с фром_айди = этому айди
 
