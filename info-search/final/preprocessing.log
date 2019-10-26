@@ -1,0 +1,134 @@
+Fri, 25 Oct 2019 13:33:28 INFO     made tfidf dataframe
+Fri, 25 Oct 2019 13:48:46 INFO     made tfidf dataframe
+Fri, 25 Oct 2019 13:48:46 INFO     loading Word2VecKeyedVectors object from model.model
+Fri, 25 Oct 2019 13:48:47 INFO     loading vectors_vocab from model.model.vectors_vocab.npy with mmap=None
+Fri, 25 Oct 2019 13:48:48 INFO     loading vectors_ngrams from model.model.vectors_ngrams.npy with mmap=None
+Fri, 25 Oct 2019 13:48:55 INFO     loading vectors from model.model.vectors.npy with mmap=None
+Fri, 25 Oct 2019 13:48:55 INFO     setting ignored attribute vectors_vocab_norm to None
+Fri, 25 Oct 2019 13:48:55 INFO     setting ignored attribute buckets_word to None
+Fri, 25 Oct 2019 13:48:55 INFO     setting ignored attribute vectors_norm to None
+Fri, 25 Oct 2019 13:48:55 INFO     setting ignored attribute vectors_ngrams_norm to None
+Fri, 25 Oct 2019 13:48:55 INFO     loaded model.model
+Fri, 25 Oct 2019 13:51:19 INFO     made fasttext dataframe
+Fri, 25 Oct 2019 14:00:46 INFO     made tfidf dataframe
+Fri, 25 Oct 2019 14:01:24 INFO     made bm25 dataframe
+Fri, 25 Oct 2019 14:11:46 INFO     made tfidf dataframe
+Fri, 25 Oct 2019 14:11:46 INFO     'pattern' package not found; tag filters are not available for English
+Fri, 25 Oct 2019 14:11:46 INFO     made fasttext dataframe
+Fri, 25 Oct 2019 14:12:26 INFO     made bm25 dataframe
+Fri, 25 Oct 2019 14:12:26 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Fri, 25 Oct 2019 14:12:26 INFO      * Restarting with stat
+Fri, 25 Oct 2019 14:12:29 INFO     made tfidf dataframe
+Fri, 25 Oct 2019 14:12:29 INFO     'pattern' package not found; tag filters are not available for English
+Fri, 25 Oct 2019 14:12:29 INFO     made fasttext dataframe
+Fri, 25 Oct 2019 14:13:07 INFO     made bm25 dataframe
+Fri, 25 Oct 2019 14:13:07 WARNING   * Debugger is active!
+Fri, 25 Oct 2019 14:13:08 INFO      * Debugger PIN: 204-900-937
+Fri, 25 Oct 2019 14:13:08 INFO     127.0.0.1 - - [25/Oct/2019 14:13:08] "GET / HTTP/1.1" 200 -
+Fri, 25 Oct 2019 14:13:21 INFO     {{new_sent[:3]}}
+Fri, 25 Oct 2019 14:13:21 INFO     127.0.0.1 - - [25/Oct/2019 14:13:21] "GET /thanks?sentence=%D0%B2+%D1%87%D0%B5%D0%BC+%D1%81%D0%BC%D1%8B%D1%81%D0%BB+%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&method=tfidf HTTP/1.1" 200 -
+Fri, 25 Oct 2019 14:15:50 INFO     made tfidf dataframe
+Fri, 25 Oct 2019 14:15:50 INFO     'pattern' package not found; tag filters are not available for English
+Fri, 25 Oct 2019 14:15:50 INFO     made fasttext dataframe
+Fri, 25 Oct 2019 14:16:27 INFO     made bm25 dataframe
+Fri, 25 Oct 2019 14:16:27 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Fri, 25 Oct 2019 14:16:27 INFO      * Restarting with stat
+Fri, 25 Oct 2019 14:16:29 INFO     made tfidf dataframe
+Fri, 25 Oct 2019 14:16:29 INFO     'pattern' package not found; tag filters are not available for English
+Fri, 25 Oct 2019 14:16:29 INFO     made fasttext dataframe
+Fri, 25 Oct 2019 14:17:07 INFO     made bm25 dataframe
+Fri, 25 Oct 2019 14:17:07 WARNING   * Debugger is active!
+Fri, 25 Oct 2019 14:17:07 INFO      * Debugger PIN: 204-900-937
+Fri, 25 Oct 2019 14:17:10 INFO     Result : {new_sent[:3]}
+Fri, 25 Oct 2019 14:17:10 INFO     127.0.0.1 - - [25/Oct/2019 14:17:10] "GET /thanks?sentence=%D0%B2+%D1%87%D0%B5%D0%BC+%D1%81%D0%BC%D1%8B%D1%81%D0%BB+%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&method=tfidf HTTP/1.1" 200 -
+Fri, 25 Oct 2019 14:17:10 INFO     127.0.0.1 - - [25/Oct/2019 14:17:10] "GET / HTTP/1.1" 200 -
+Fri, 25 Oct 2019 14:17:23 INFO     Result : {new_sent[:3]}
+Fri, 25 Oct 2019 14:17:23 INFO     127.0.0.1 - - [25/Oct/2019 14:17:23] "GET /thanks?sentence=%D0%B2+%D1%87%D0%B5%D0%BC+%D1%81%D0%BC%D1%8B%D1%81%D0%BB+%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&method=tfidf HTTP/1.1" 200 -
+Fri, 25 Oct 2019 14:18:04 INFO      * Detected change in '/Users/mayakorotkaya/infosearch/final_flask.py', reloading
+Fri, 25 Oct 2019 14:18:05 INFO      * Restarting with stat
+Fri, 25 Oct 2019 14:18:07 INFO     made tfidf dataframe
+Fri, 25 Oct 2019 14:18:07 INFO     'pattern' package not found; tag filters are not available for English
+Fri, 25 Oct 2019 14:18:07 INFO     made fasttext dataframe
+Sat, 26 Oct 2019 14:53:24 INFO     made tfidf dataframe
+Sat, 26 Oct 2019 14:53:24 INFO     'pattern' package not found; tag filters are not available for English
+Sat, 26 Oct 2019 14:53:24 INFO     made fasttext dataframe
+Sat, 26 Oct 2019 14:55:54 INFO     made tfidf dataframe
+Sat, 26 Oct 2019 14:55:54 INFO     'pattern' package not found; tag filters are not available for English
+Sat, 26 Oct 2019 14:55:54 INFO     loading Word2VecKeyedVectors object from model.model
+Sat, 26 Oct 2019 14:55:55 INFO     loading vectors_vocab from model.model.vectors_vocab.npy with mmap=None
+Sat, 26 Oct 2019 14:55:55 INFO     loading vectors_ngrams from model.model.vectors_ngrams.npy with mmap=None
+Sat, 26 Oct 2019 14:56:02 INFO     loading vectors from model.model.vectors.npy with mmap=None
+Sat, 26 Oct 2019 14:56:02 INFO     setting ignored attribute vectors_vocab_norm to None
+Sat, 26 Oct 2019 14:56:02 INFO     setting ignored attribute buckets_word to None
+Sat, 26 Oct 2019 14:56:02 INFO     setting ignored attribute vectors_norm to None
+Sat, 26 Oct 2019 14:56:02 INFO     setting ignored attribute vectors_ngrams_norm to None
+Sat, 26 Oct 2019 14:56:02 INFO     loaded model.model
+Sat, 26 Oct 2019 14:56:02 INFO     made fasttext dataframe
+Sat, 26 Oct 2019 14:56:03 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Sat, 26 Oct 2019 14:56:03 INFO      * Restarting with stat
+Sat, 26 Oct 2019 14:56:06 INFO     made tfidf dataframe
+Sat, 26 Oct 2019 14:56:06 INFO     'pattern' package not found; tag filters are not available for English
+Sat, 26 Oct 2019 14:56:06 INFO     loading Word2VecKeyedVectors object from model.model
+Sat, 26 Oct 2019 14:56:07 INFO     loading vectors_vocab from model.model.vectors_vocab.npy with mmap=None
+Sat, 26 Oct 2019 14:56:07 INFO     loading vectors_ngrams from model.model.vectors_ngrams.npy with mmap=None
+Sat, 26 Oct 2019 14:56:14 INFO     loading vectors from model.model.vectors.npy with mmap=None
+Sat, 26 Oct 2019 14:56:15 INFO     setting ignored attribute vectors_vocab_norm to None
+Sat, 26 Oct 2019 14:56:15 INFO     setting ignored attribute buckets_word to None
+Sat, 26 Oct 2019 14:56:15 INFO     setting ignored attribute vectors_norm to None
+Sat, 26 Oct 2019 14:56:15 INFO     setting ignored attribute vectors_ngrams_norm to None
+Sat, 26 Oct 2019 14:56:15 INFO     loaded model.model
+Sat, 26 Oct 2019 14:56:15 INFO     made fasttext dataframe
+Sat, 26 Oct 2019 14:56:18 WARNING   * Debugger is active!
+Sat, 26 Oct 2019 14:56:19 INFO      * Debugger PIN: 204-900-937
+Sat, 26 Oct 2019 14:56:40 INFO     Result : {new_sent}
+Sat, 26 Oct 2019 14:56:40 INFO     127.0.0.1 - - [26/Oct/2019 14:56:40] "GET /thanks?sentence=%D0%B2+%D1%87%D0%B5%D0%BC+%D1%81%D0%BC%D1%8B%D1%81%D0%BB+%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&method=tfidf HTTP/1.1" 200 -
+Sat, 26 Oct 2019 14:56:48 INFO     127.0.0.1 - - [26/Oct/2019 14:56:48] "GET / HTTP/1.1" 200 -
+Sat, 26 Oct 2019 14:56:48 INFO     127.0.0.1 - - [26/Oct/2019 14:56:48] "GET / HTTP/1.1" 200 -
+Sat, 26 Oct 2019 14:57:04 INFO     Result : {new_sent}
+Sat, 26 Oct 2019 14:57:04 INFO     127.0.0.1 - - [26/Oct/2019 14:57:04] "GET /thanks?sentence=%D0%B2+%D1%87%D0%B5%D0%BC+%D1%81%D0%BC%D1%8B%D1%81%D0%BB+%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8&method=tfidf HTTP/1.1" 200 -
+Sat, 26 Oct 2019 14:58:25 INFO     made tfidf dataframe
+Sat, 26 Oct 2019 14:58:25 INFO     'pattern' package not found; tag filters are not available for English
+Sat, 26 Oct 2019 14:58:25 INFO     loading Word2VecKeyedVectors object from model.model
+Sat, 26 Oct 2019 14:58:26 INFO     loading vectors_vocab from model.model.vectors_vocab.npy with mmap=None
+Sat, 26 Oct 2019 14:58:26 INFO     loading vectors_ngrams from model.model.vectors_ngrams.npy with mmap=None
+Sat, 26 Oct 2019 14:58:29 INFO     loading vectors from model.model.vectors.npy with mmap=None
+Sat, 26 Oct 2019 14:58:30 INFO     setting ignored attribute vectors_vocab_norm to None
+Sat, 26 Oct 2019 14:58:30 INFO     setting ignored attribute buckets_word to None
+Sat, 26 Oct 2019 14:58:30 INFO     setting ignored attribute vectors_norm to None
+Sat, 26 Oct 2019 14:58:30 INFO     setting ignored attribute vectors_ngrams_norm to None
+Sat, 26 Oct 2019 14:58:30 INFO     loaded model.model
+Sat, 26 Oct 2019 14:58:30 INFO     made fasttext dataframe
+Sat, 26 Oct 2019 14:58:30 INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Sat, 26 Oct 2019 14:58:30 INFO      * Restarting with stat
+Sat, 26 Oct 2019 14:58:33 INFO     made tfidf dataframe
+Sat, 26 Oct 2019 14:58:33 INFO     'pattern' package not found; tag filters are not available for English
+Sat, 26 Oct 2019 14:58:33 INFO     loading Word2VecKeyedVectors object from model.model
+Sat, 26 Oct 2019 14:58:34 INFO     loading vectors_vocab from model.model.vectors_vocab.npy with mmap=None
+Sat, 26 Oct 2019 14:58:34 INFO     loading vectors_ngrams from model.model.vectors_ngrams.npy with mmap=None
+Sat, 26 Oct 2019 14:58:40 INFO     loading vectors from model.model.vectors.npy with mmap=None
+Sat, 26 Oct 2019 14:58:40 INFO     setting ignored attribute vectors_vocab_norm to None
+Sat, 26 Oct 2019 14:58:40 INFO     setting ignored attribute buckets_word to None
+Sat, 26 Oct 2019 14:58:40 INFO     setting ignored attribute vectors_norm to None
+Sat, 26 Oct 2019 14:58:40 INFO     setting ignored attribute vectors_ngrams_norm to None
+Sat, 26 Oct 2019 14:58:40 INFO     loaded model.model
+Sat, 26 Oct 2019 14:58:40 INFO     made fasttext dataframe
+Sat, 26 Oct 2019 14:58:41 WARNING   * Debugger is active!
+Sat, 26 Oct 2019 14:58:41 INFO      * Debugger PIN: 204-900-937
+Sat, 26 Oct 2019 14:59:32 INFO     Result : [{'body': 'что теперь будет делать клинтон - 2.5803044180494825'}, {'body': 'делать приседания для мужчин - 1.61533229099495'}, {'body': 'что я должен делать, чтобы быть великим геологом? - 1.089445045187999'}, {'body': 'что вы делаете, хотя зная лучше - 1.089445045187999'}, {'body': 'приседания делают мои ноги более толстыми - 1.089445045187999'}, {'body': 'могу ли я делать 30 000 ежемесячных торгов - 1.089445045187999'}, {'body': 'что делает понимание смерти философским - 1.089445045187999'}, {'body': 'что я должен делать, чтобы быть хорошим оратором - 1.089445045187999'}, {'body': 'делать животных, кроме людей, целует - 0.7787896744233507'}, {'body': 'что я должен делать, чтобы избежать депрессии и тревоги - 0.7787896744233507'}]
+Sat, 26 Oct 2019 14:59:32 INFO     127.0.0.1 - - [26/Oct/2019 14:59:32] "GET /thanks?sentence=%D1%87%D1%82%D0%BE+%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C&method=BM25 HTTP/1.1" 200 -
+Sat, 26 Oct 2019 14:59:33 INFO     127.0.0.1 - - [26/Oct/2019 14:59:33] "GET /favicon.ico HTTP/1.1" 404 -
+Sat, 26 Oct 2019 15:01:30 INFO     made tfidf dataframe
+Sat, 26 Oct 2019 15:01:30 INFO     'pattern' package not found; tag filters are not available for English
+Sat, 26 Oct 2019 15:01:30 INFO     loading Word2VecKeyedVectors object from model.model
+Sat, 26 Oct 2019 15:01:31 INFO     loading vectors_vocab from model.model.vectors_vocab.npy with mmap=None
+Sat, 26 Oct 2019 15:01:31 INFO     loading vectors_ngrams from model.model.vectors_ngrams.npy with mmap=None
+Sat, 26 Oct 2019 15:01:34 INFO     loading vectors from model.model.vectors.npy with mmap=None
+Sat, 26 Oct 2019 15:01:35 INFO     setting ignored attribute vectors_vocab_norm to None
+Sat, 26 Oct 2019 15:01:35 INFO     setting ignored attribute buckets_word to None
+Sat, 26 Oct 2019 15:01:35 INFO     setting ignored attribute vectors_norm to None
+Sat, 26 Oct 2019 15:01:35 INFO     setting ignored attribute vectors_ngrams_norm to None
+Sat, 26 Oct 2019 15:01:35 INFO     loaded model.model
+Sat, 26 Oct 2019 15:01:35 INFO     made fasttext dataframe
+Sat, 26 Oct 2019 15:01:35 INFO     Result : [{'body': 'Какова цель жизни, что на самом деле является жизнью - 0.9933449982863927'}, {'body': 'что произойдет, если правительство Индии украдет кохинор кох-и-ноор-алмаз назад - 0.0'}, {'body': 'как повысить скорость интернета путем взлома через dns - 0.0'}, {'body': 'найти остаток, когда математика 23 ^ 24 математика разделена на 24 23 - 0.0'}, {'body': 'какая рыба выживет в соленой воде - 0.0'}, {'body': 'Я тройная луна-козерог и восхождение в козероге, что это говорит обо мне - 0.0'}, {'body': 'что делает детей активными и далеки от телефонных и видеоигр - 0.0'}, {'body': 'что я должен делать, чтобы быть великим геологом? - 0.0'}, {'body': 'когда вы используете вместо - 0.0'}, {'body': 'как я могу взломать motorola dcx3400 для бесплатного интернета - 0.0'}]
+Sat, 26 Oct 2019 15:01:35 INFO     127.0.0.1 - - [26/Oct/2019 15:01:35] "GET /thanks?sentence=%D0%BA%D0%B0%D0%BA+%D0%B4%D0%B5%D0%BB%D0%B0&method=BM25 HTTP/1.1" 200 -
+Sat, 26 Oct 2019 15:01:35 INFO     127.0.0.1 - - [26/Oct/2019 15:01:35] "GET /favicon.ico HTTP/1.1" 404 -
